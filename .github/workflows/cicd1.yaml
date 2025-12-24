@@ -1,0 +1,12 @@
+
+name: First githubaction
+
+on:
+  push:
+
+jobs:
+  b-16dfirstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: msg
+        run: echo "welcome github"
