@@ -1,0 +1,12 @@
+
+name: first github action
+on: 
+   push
+   
+jobs:
+ b16d-firstjob:
+   runs on: ubuntu latest
+   steps:
+   
+   name: message
+   run: echo"welcome to GHA"
